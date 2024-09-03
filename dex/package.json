@@ -1,0 +1,48 @@
+{
+  "name": "dex",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "https://api.1inch.dev",
+  "dependencies": {
+    "@ant-design/icons": "^5.0.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@wagmi/connectors": "^0.1.10",
+    "@wagmi/core": "^0.8.19",
+    "antd": "^5.1.5",
+    "axios": "^1.2.3",
+    "ethers": "^5.7.2",
+    "http-proxy-middleware": "^3.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.6.2",
+    "react-scripts": "5.0.1",
+    "wagmi": "^0.10.15",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
